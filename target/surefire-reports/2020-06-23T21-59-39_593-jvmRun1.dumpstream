@@ -1,0 +1,319 @@
+# Created at 2020-06-23T22:00:25.514
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-06-23T22:00:44.030
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.034
+Unexpected IOException with stream:   @registerTest
+
+
+# Created at 2020-06-23T22:00:44.035
+Unexpected IOException with stream:   Scenario: Register Account for new User                          # Features/TestEnv.feature:5
+
+
+# Created at 2020-06-23T22:00:44.036
+Unexpected IOException with stream:     Given User is on TEST Environment page                         # loginStepDefiniton.user_is_on_TEST_Environment_page()
+
+
+# Created at 2020-06-23T22:00:44.036
+Unexpected IOException with stream:     When User click on MyAccount                                   # loginStepDefiniton.user_click_on_MyAccount()
+
+
+# Created at 2020-06-23T22:00:44.037
+Unexpected IOException with stream:     And User click on Register                                     # RegisterStepDefinition.user_click_on_Register()
+
+
+# Created at 2020-06-23T22:00:44.039
+Unexpected IOException with stream:     And User fills Register form with below information            # RegisterStepDefinition.user_fills_Register_form_with_below_information(DataTable)
+
+
+# Created at 2020-06-23T22:00:44.040
+Unexpected IOException with stream:     And User select 'yes' for Subscribe                            # RegisterStepDefinition.user_select_yes_for_Subscribe(String)
+
+
+# Created at 2020-06-23T22:00:44.041
+Unexpected IOException with stream:     And User click privacy and policy button                       # RegisterStepDefinition.user_click_privacy_and_policy_button()
+
+
+# Created at 2020-06-23T22:00:44.042
+Unexpected IOException with stream:     And User click Continue button                                 # RegisterStepDefinition.user_click_Continue_button()
+
+
+# Created at 2020-06-23T22:00:44.043
+Unexpected IOException with stream:     Then User should see message  'Your Account Has Been Created!' # RegisterStepDefinition.user_should_see_message_Your_Account_Has_Been_Created(String)
+
+
+# Created at 2020-06-23T22:00:44.045
+Unexpected IOException with stream:       org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(),'Your Account Has Been Created!')]"}
+        (Session info: chrome=83.0.4103.116)
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+      System info: host: 'DESKTOP-93RVSJL', ip: '10.0.0.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\abdul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+      Session ID: 83af1b6067805f7f41006a7bb5bb0653
+      *** Element info: {Using=xpath, value=//h1[contains(text(),'Your Account Has Been Created!')]}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+      	at com.sun.proxy.$Proxy18.getText(Unknown Source)
+      	at utilities.DriverUtility.getText(DriverUtility.java:168)
+      	at pageObjects.RegisterPageObj.getSuccessfullAcctCreationMessage(RegisterPageObj.java:116)
+      	at stepDefinitions.RegisterStepDefinition.user_should_see_message_Your_Account_Has_Been_Created(RegisterStepDefinition.java:105)
+      	at ?.Then User should see message  'Your Account Has Been Created!'(Features/TestEnv.feature:15)
+
+
+
+# Created at 2020-06-23T22:00:44.055
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.056
+Unexpected IOException with stream: Failed scenarios:
+
+
+# Created at 2020-06-23T22:00:44.057
+Unexpected IOException with stream: Features/TestEnv.feature:5 
+
+# Created at 2020-06-23T22:00:44.058
+Unexpected IOException with stream: # Scenario: Register Account for new User
+
+
+# Created at 2020-06-23T22:00:44.059
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.059
+Unexpected IOException with stream: 1
+
+# Created at 2020-06-23T22:00:44.060
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2020-06-23T22:00:44.061
+Unexpected IOException with stream: 1 failed
+
+# Created at 2020-06-23T22:00:44.061
+Unexpected IOException with stream: )
+
+
+# Created at 2020-06-23T22:00:44.062
+Unexpected IOException with stream: 8
+
+# Created at 2020-06-23T22:00:44.062
+Unexpected IOException with stream:  Steps (
+
+# Created at 2020-06-23T22:00:44.063
+Unexpected IOException with stream: 1 failed
+
+# Created at 2020-06-23T22:00:44.064
+Unexpected IOException with stream: , 
+
+# Created at 2020-06-23T22:00:44.065
+Unexpected IOException with stream: 7 passed
+
+# Created at 2020-06-23T22:00:44.066
+Unexpected IOException with stream: )
+
+
+# Created at 2020-06-23T22:00:44.068
+Unexpected IOException with stream: 1m
+
+# Created at 2020-06-23T22:00:44.073
+Unexpected IOException with stream: 2.644s
+
+
+# Created at 2020-06-23T22:00:44.074
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.076
+Unexpected IOException with stream: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(),'Your Account Has Been Created!')]"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'DESKTOP-93RVSJL', ip: '10.0.0.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\abdul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 83af1b6067805f7f41006a7bb5bb0653
+*** Element info: {Using=xpath, value=//h1[contains(text(),'Your Account Has Been Created!')]}
+
+# Created at 2020-06-23T22:00:44.079
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.080
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2020-06-23T22:00:44.082
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.084
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2020-06-23T22:00:44.085
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.086
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2020-06-23T22:00:44.087
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.088
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2020-06-23T22:00:44.090
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.091
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2020-06-23T22:00:44.092
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.093
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2020-06-23T22:00:44.093
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.094
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2020-06-23T22:00:44.094
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.095
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+
+# Created at 2020-06-23T22:00:44.095
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.096
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2020-06-23T22:00:44.097
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.097
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+
+# Created at 2020-06-23T22:00:44.098
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.098
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+
+# Created at 2020-06-23T22:00:44.100
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.101
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+
+# Created at 2020-06-23T22:00:44.101
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.103
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+
+# Created at 2020-06-23T22:00:44.105
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.106
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+
+# Created at 2020-06-23T22:00:44.107
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.108
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+
+# Created at 2020-06-23T22:00:44.109
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.110
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+
+# Created at 2020-06-23T22:00:44.111
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.113
+Unexpected IOException with stream: 	at com.sun.proxy.$Proxy18.getText(Unknown Source)
+
+# Created at 2020-06-23T22:00:44.114
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.114
+Unexpected IOException with stream: 	at utilities.DriverUtility.getText(DriverUtility.java:168)
+
+# Created at 2020-06-23T22:00:44.115
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.116
+Unexpected IOException with stream: 	at pageObjects.RegisterPageObj.getSuccessfullAcctCreationMessage(RegisterPageObj.java:116)
+
+# Created at 2020-06-23T22:00:44.117
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.119
+Unexpected IOException with stream: 	at stepDefinitions.RegisterStepDefinition.user_should_see_message_Your_Account_Has_Been_Created(RegisterStepDefinition.java:105)
+
+# Created at 2020-06-23T22:00:44.120
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.123
+Unexpected IOException with stream: 	at ?.Then User should see message  'Your Account Has Been Created!'(Features/TestEnv.feature:15)
+
+# Created at 2020-06-23T22:00:44.124
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.126
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-23T22:00:44.210
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,runner.TestRunner,null,null,null
+
+
